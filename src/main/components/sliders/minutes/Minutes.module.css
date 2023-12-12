@@ -1,0 +1,98 @@
+.minutes__title {
+    font-size: 32px;
+    font-weight: 500;
+
+    letter-spacing: -0.96px;
+
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 10px;
+    background-color: var(--Gray);
+    border-radius: 8px;
+}
+
+.slider {
+    position: absolute;
+    width: 1200px;
+    height: 10px;
+    border-radius: 8px;
+    outline: none;
+    appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+  border: 2px #fff solid;
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 50%;
+  width: 60px; /* Set a specific slider handle width */
+  height: 60px; /* Slider handle height */
+  background-image: url(../../icons/slide.svg);
+  background-position: -4px -4px;
+  cursor: pointer;
+}
+
+.track1 {
+    z-index: 4;
+    width: 0px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: var(--Accent);
+}
+
+.track2 {
+    z-index: 4;
+    width: 400px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: var(--Accent);
+}
+
+.track3 {
+    z-index: 4;
+    width: 800px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: var(--Accent);
+}
+
+.track4 {
+    z-index: 4;
+    width: 1200px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: var(--Accent);
+}
+
+.trackDefault {
+    z-index: 4;
+    width: 800px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: var(--Accent);
+}
+
+.minutes__description {
+    margin-left: -21px;
+    margin-top: 45px;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.72px;
+}
+
+.minutes__description li {
+    display: flex;
+    min-width: 120px;
+}
+
+.minutes__description li {
+    margin-right: 259px;
+    transition: all;
+}
+

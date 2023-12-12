@@ -1,0 +1,98 @@
+.operator__title {
+    font-size: 32px;
+    font-weight: 500;
+
+    letter-spacing: -0.96px;
+
+    margin-bottom: 40px;
+}
+
+.my__select__placeholder {
+    font-size: 24px !important;
+    color: var(--Text) !important;
+}
+
+.my__select__container {
+    border-radius: 8px !important;
+}
+
+.my__select__control {
+    z-index: 3 !important;
+    height: 60px !important;
+    width: 368px !important;
+    border-radius: 8px !important;
+    border: 2px solid var(--Gray) !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px, var(--Gray) 0px 0px 0px 1.5px !important;
+    margin-bottom: 90px !important;
+}
+.my__select__single-value {
+    color: #000 !important;
+    font-size: 24px !important;
+}
+
+.my__select__control--is-focused {
+    /* border: 2px solid var(--Accent) !important; */
+    border-radius: 8px 8px 0 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, var(--Accent) 0px 0px 0px 2px !important;
+} 
+
+.my__select__menu-list {
+    border-radius: 0 0 8px 8px !important;
+    width: 368px !important;
+    border: none !important; 
+    border-radius: 0 !important;
+}
+
+.my__select__menu {
+    z-index: 2 !important;
+    height: 184px !important;
+    width: 368px !important;
+    top: 47px !important;
+    border-radius: 0 0 8px 8px !important;
+    /* border: 2px solid red !important; */
+}
+
+.my__select__option {
+    border-radius: 0 !important;
+    border: 1px solid var(--Gray) !important;
+    height: 60px !important;
+    width: 368px !important;
+    background-color: white !important;
+    color: var(--Gray) !important;
+    padding-top: 18px !important;
+    left: 16px !important;
+    font-size: 24px !important;
+}
+
+.my__select__option:hover {
+    background-color: var(--Accent) !important;
+    color: #FFF !important; 
+}
+
+.my__select__option:last-child {
+    border-radius: 0 0 8px 8px !important;
+
+}
+
+.my__select__indicators {
+    border-radius: 8px !important;
+    
+}
+
+.my__select__dropdown-indicator {
+    margin-right: 8px;
+}
+
+.indicator__rotated{
+    transform: rotate(180deg)
+}
+
+.my__select__indicator-separator {
+    display: none !important;
+}
+/* .my__select__control:first-child {
+    border-radius: 0 0 8px 8px !important;
+    background-color: red;
+} */

@@ -1,0 +1,52 @@
+.wifi__title {
+    margin-top: 90px;
+
+    font-size: 32px;
+    font-weight: 500;
+
+    margin-bottom: 40px;
+}
+
+.checkBox1 {
+  margin-bottom: 30px;
+}
+
+.checkBox2 {
+    margin-bottom: 90px;
+}
+
+.custom__checkbox {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.custom__checkbox input {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom__checkbox__checkmark {
+  border: 1px solid var(--Gray);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.custom__checkbox input:checked ~ .custom__checkbox__checkmark {
+  background-image: url(../icons/check.svg);
+  background-color: var(--Accent);
+}
+
+.custom__checkbox__label {
+    margin-top: -18px;
+    margin-left: 40px;
+    font-size: 24px;
+    letter-spacing: -0.24px;
+    display: flex;
+}
