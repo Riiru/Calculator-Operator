@@ -13,7 +13,7 @@
     "react-select": "^5.8.0",
     "styled-components": "^6.1.1"
   },
-  "homepage": "https://Riiru.github.io/Calculator-Operator",
+  "homepage": "https://Riiru.github.io/Calculator-Operator/build/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "cmd /C/Users/Shibayan/Desktop/Calculator-Operator/deploy.sh",
