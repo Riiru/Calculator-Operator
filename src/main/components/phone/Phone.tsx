@@ -1,21 +1,26 @@
-import React, { useState, ChangeEvent } from 'react';
+import React, { ChangeEvent } from 'react';
 import classes from './Phone.module.css';
 import errorImg from '../phone/error.svg'
 import InputMask from 'react-input-mask';
+import { ContextCalculate } from '../../context/ContextCalculate'
+import { useContext } from 'react';
 
 const Phone: React.FC = () => {
-    const [phoneValue, setPhoneValue] = useState<string>('');
-    const [errorState, setErrorState] = useState<number>(0);
+
+    const {
+    phoneValue, setPhoneValue,
+    errorState, setErrorState,
+    } = useContext(ContextCalculate);
 
     // errorState 0 = inactive
     // errorState 1 = active, violet border
     // errorState 2 = error, red border
 
-    // let unmaskedValue = phoneValue.replace(/\D/g,'');      <----------- если будет нужно значение без "маски" react-input-mask
+    // let unmaskedValue = phoneValue.replace(/\D/g,'');  <--- если будет нужно значение без "маски" react-input-mask
 
     const handlePhoneChange = (e :
     ChangeEvent<HTMLInputElement>): void => {
-    setPhoneValue(e.target.value); 
+    setPhoneValue(e.target.value);
     };
 
     const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -33,6 +38,7 @@ const Phone: React.FC = () => {
             else { setErrorState(1) };
     };
 
+
     //клик на инпут
     const handleFocus = () => {
         if (errorState !== 2) {setErrorState(1);}
@@ -42,7 +48,11 @@ const Phone: React.FC = () => {
         if (errorState !== 2) {setErrorState(0);}
     };
 
+
+    // динамичные className обводки
         const inputClasses = `${classes.phone__inner} ${errorState === 1 ? classes.active : ''} ${errorState === 2 ? classes.red : ''}`;
+
+    // динамичные className индикатора ошибки
         const requiredTextClasses = `${classes.required} ${errorState === 2 ? classes.error : ''}`;
 
     return (

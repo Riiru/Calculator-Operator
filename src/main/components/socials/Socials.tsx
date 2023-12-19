@@ -28,7 +28,6 @@ const Socials = () => {
     } = useContext(ContextCalculate);
 
     const FbClick = () => {
-        console.log('fbchange');
         if (isFbActive === false) {
             setSocialsCalc(socialsCalc + 20)
         } else {setSocialsCalc(socialsCalc - 20)};
@@ -36,7 +35,6 @@ const Socials = () => {
     }
 
     const VkClick = () => {
-        console.log('vkchange');
         if (isVkActive === false) {
             setSocialsCalc(socialsCalc + 20)
         } else {setSocialsCalc(socialsCalc - 20)};
@@ -44,7 +42,6 @@ const Socials = () => {
     }
 
     const OkClick = () => {
-        console.log('okchange');
         if (isOkActive === false) {
             setSocialsCalc(socialsCalc + 20)
         } else {setSocialsCalc(socialsCalc - 20)}
@@ -52,7 +49,6 @@ const Socials = () => {
     }
 
     const InstClick = () => {
-        console.log('instchange');
         if (isInstActive === false) {
             setSocialsCalc(socialsCalc + 60)
         } else {setSocialsCalc(socialsCalc - 60)}
@@ -60,7 +56,6 @@ const Socials = () => {
     }
 
     const TtClick = () => {
-        console.log('ttchange');
         if (isTtActive === false) {
             setSocialsCalc(socialsCalc + 60)
         } else {setSocialsCalc(socialsCalc - 60)}

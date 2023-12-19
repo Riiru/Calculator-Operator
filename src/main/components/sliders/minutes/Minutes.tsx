@@ -4,20 +4,18 @@ import { ContextCalculate } from '../../../context/ContextCalculate';
 
 const Minutes = () => {
 
+    // стейты ↓↓↓
     const {
-    minutesCalc, setMinutesCalc,
+    minutesCalc, setMinutesCalc, minutesSelection, setMinutesSelection,
     } = useContext(ContextCalculate);
 
     const [changeState, setChangeState] = useState<number>(0)
-
-    const [currentValue, setCurrentValue] = useState<number>(3)
-
     const [minutesCurrentVal, setMinutesCurrentVal] = useState<number>(250);
 
     const handleChange = (event : ChangeEvent<HTMLInputElement>) => {
 
         const value:number = parseInt(event.target.value);
-        setCurrentValue(value);
+        setMinutesSelection(value);
         setChangeState(1);
         switch(event.target.value) {
 
@@ -44,49 +42,51 @@ const Minutes = () => {
         }
     }
 
+    // стили ↓↓
     const minutes1style = {
         h2 : {transition : 'all 0.3s',
-        marginLeft : currentValue === 1 ? ('10px') : ('30px') },
-        h3 : {display : currentValue === 1 ? ('block') : ('none')}
+        marginLeft : minutesSelection === 1 ? ('10px') : ('30px') },
+        h3 : {display : minutesSelection === 1 ? ('block') : ('none')}
     }
 
     const minutes2style = {
         h2 : {transition : 'all 0.3s',
-        marginLeft : currentValue === 2 ? ('10px') : ('30px') },
-        h3 : {display : currentValue === 2 ? ('block') : ('none')}
+        marginLeft : minutesSelection === 2 ? ('10px') : ('30px') },
+        h3 : {display : minutesSelection === 2 ? ('block') : ('none')}
     }
     
     const minutes3style = {
         h2 : {transition : 'all 0.3s',
-        marginLeft : currentValue === 3 ? ('10px') : ('30px')},
-        h3 : {display : currentValue === 3 ? ('block') : ('none')},
+        marginLeft : minutesSelection === 3 ? ('10px') : ('30px')},
+        h3 : {display : minutesSelection === 3 ? ('block') : ('none')},
     }
 
     const minutes4style = {
         h2 : {transition : 'all 0.3s',
-        marginLeft : currentValue === 4 ? ('10px') : ('30px') },
-        h3 : {display : currentValue === 4 ? ('block') : ('none')},
+        marginLeft : minutesSelection === 4 ? ('10px') : ('30px') },
+        h3 : {display : minutesSelection === 4 ? ('block') : ('none')},
     }
 
     return (
         <div>
-            <div className={classes.minutes__title}>Минуты</div>
+            <div className={classes.minutes__title}>
+                Минуты
+            </div>
             <div className={classes.container}>
-            <input className={classes.slider}
-            data-testid='minutes__test'
-            onChange={handleChange}
-            type="range"
-            min="1" max="4"
-            value={currentValue}
-            aria-label="Volume slider"
-            />
-            <div data-testid='tracktest' className={`
-                ${classes.track1}
-                ${currentValue === 1 ? classes.track1 : ''} 
-                ${currentValue === 2 ? classes.track2 : ''} 
-                ${currentValue === 3 ? classes.track3 : ''} 
-                ${currentValue === 4 ? classes.track4 : ''}
-                `}/>
+                <input className={classes.slider}
+                    data-testid='minutesTest'
+                    onChange={handleChange}
+                    type="range"
+                    min="1" max="4"
+                    value={minutesSelection}
+                />
+                <div className={`
+                    ${classes.track1}
+                    ${minutesSelection === 1 ? classes.track1 : ''} 
+                    ${minutesSelection === 2 ? classes.track2 : ''} 
+                    ${minutesSelection === 3 ? classes.track3 : ''} 
+                    ${minutesSelection === 4 ? classes.track4 : ''}`}
+                />
             </div>
             <ul className={classes.minutes__description}>
                 <li ><h2 style={minutes1style.h2}>200</h2><h3 data-testid='text1' style={minutes1style.h3}>&nbsp;мин.</h3></li>
