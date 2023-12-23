@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Calculator-Operator/static/css/main.972528de.css",
+    "main.js": "/Calculator-Operator/static/js/main.66f2c305.js",
+    "static/media/instcolored.svg": "/Calculator-Operator/static/media/instcolored.1a6c9bdf1de19beba7bb74377fb6d30a.svg",
+    "static/media/inst.svg": "/Calculator-Operator/static/media/inst.e5b3bb647d1588bdc5d1eacdfd5fe48c.svg",
+    "static/media/tt.svg": "/Calculator-Operator/static/media/tt.6f37b649861bc63b74de04fbf37987fd.svg",
+    "static/media/ttcolored.svg": "/Calculator-Operator/static/media/ttcolored.9552314301ec5d6d57b246bc675c7581.svg",
+    "static/media/ok.svg": "/Calculator-Operator/static/media/ok.8e8f186dd94464499ed09f6540f0c384.svg",
+    "static/media/okcolored.svg": "/Calculator-Operator/static/media/okcolored.d51c416fa45840e6f94cc8ea3c6eb6b6.svg",
+    "index.html": "/Calculator-Operator/index.html",
+    "static/media/slide.svg": "/Calculator-Operator/static/media/slide.13ab39191a7df1d659a9.svg",
+    "static/media/arrow.svg": "/Calculator-Operator/static/media/arrow.c5680da45bc71e9dbd39be03db9004e7.svg",
+    "static/media/vk.svg": "/Calculator-Operator/static/media/vk.5cc118493eef606bd4f0e2b84bda094f.svg",
+    "static/media/vkcolored.svg": "/Calculator-Operator/static/media/vkcolored.5ed8a6175eb929ee477265b63b1e2fae.svg",
+    "static/media/check.svg": "/Calculator-Operator/static/media/check.4506d0ab5b10858ca2e0.svg",
+    "static/media/slideBlack.svg": "/Calculator-Operator/static/media/slideBlack.3b9d89ba481b39f79428.svg",
+    "static/media/fb.svg": "/Calculator-Operator/static/media/fb.b7c84e08b0b89c3fd08dba2271535b96.svg",
+    "static/media/fbcolored.svg": "/Calculator-Operator/static/media/fbcolored.71ebb00c85d5989030b295cc8d9b2585.svg",
+    "static/media/error.svg": "/Calculator-Operator/static/media/error.b5c6d6d8fc22631f14c166b4777fe886.svg",
+    "main.972528de.css.map": "/Calculator-Operator/static/css/main.972528de.css.map",
+    "main.66f2c305.js.map": "/Calculator-Operator/static/js/main.66f2c305.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972528de.css",
+    "static/js/main.66f2c305.js"
+  ]
+}
