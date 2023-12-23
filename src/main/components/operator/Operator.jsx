@@ -28,8 +28,6 @@ const Operator = () => {
   };
 
   const handleChange = (selectedOption) => {
-    
-    console.log(selectedOption.value);
 
     switch (selectedOption.value) {
       case 'operatorOne' :
