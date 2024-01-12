@@ -1,3 +1,8 @@
+@media (max-width : 1500px) {
+    .minutes__wrapper {
+    display: none; } 
+}
+
 .minutes__title {
     font-size: 32px;
     font-weight: 500;

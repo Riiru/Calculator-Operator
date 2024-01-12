@@ -1,8 +1,9 @@
 .base__bg {
-    width : 1480px;
-    height : 2100px;
+    width : 100vw;
+    height : fit-content;
 
     background-color : #EEF2F4;
+    background-color : red;
 
     margin: 0px;
 }

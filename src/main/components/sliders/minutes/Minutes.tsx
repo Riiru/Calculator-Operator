@@ -68,7 +68,7 @@ const Minutes = () => {
     }
 
     return (
-        <div>
+        <div className={classes.minutes__wrapper}>
             <div className={classes.minutes__title}>
                 Минуты
             </div>

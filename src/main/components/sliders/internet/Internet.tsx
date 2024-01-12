@@ -68,7 +68,7 @@ const Internet = () => {
     }
 
     return (
-        <div>
+        <div className={classes.internet__wrapper}>
             <div className={classes.minutes__title}>
                 Интернет
             </div>
