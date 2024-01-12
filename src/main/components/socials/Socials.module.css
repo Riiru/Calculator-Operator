@@ -39,7 +39,7 @@
     background-color: #fff;
 }
 
-@media (max-width : 1080px) {
+/* @media (max-width : 1080px) {
 
 .socials__btns li{
 height: 70px;
@@ -59,5 +59,17 @@ transition: all 0.3s;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: -0.72px;
+}
+} */
+
+@media (max-width : 1080px) {
+
+.socials__btns {
+flex-wrap: wrap;
+max-width: 250px;
+}
+
+.socials__btns li {
+    margin-top: 15px;
 }
 }
