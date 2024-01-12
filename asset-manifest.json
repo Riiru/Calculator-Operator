@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Configure-tariff/static/css/main.ad76d96c.css",
-    "main.js": "/Configure-tariff/static/js/main.79a235a8.js",
+    "main.css": "/Configure-tariff/static/css/main.989c2770.css",
+    "main.js": "/Configure-tariff/static/js/main.12561d67.js",
     "static/media/instcolored.svg": "/Configure-tariff/static/media/instcolored.1a6c9bdf1de19beba7bb74377fb6d30a.svg",
     "static/media/inst.svg": "/Configure-tariff/static/media/inst.e5b3bb647d1588bdc5d1eacdfd5fe48c.svg",
     "static/media/tt.svg": "/Configure-tariff/static/media/tt.6f37b649861bc63b74de04fbf37987fd.svg",
@@ -18,11 +18,11 @@
     "static/media/fb.svg": "/Configure-tariff/static/media/fb.b7c84e08b0b89c3fd08dba2271535b96.svg",
     "static/media/fbcolored.svg": "/Configure-tariff/static/media/fbcolored.71ebb00c85d5989030b295cc8d9b2585.svg",
     "static/media/error.svg": "/Configure-tariff/static/media/error.b5c6d6d8fc22631f14c166b4777fe886.svg",
-    "main.ad76d96c.css.map": "/Configure-tariff/static/css/main.ad76d96c.css.map",
-    "main.79a235a8.js.map": "/Configure-tariff/static/js/main.79a235a8.js.map"
+    "main.989c2770.css.map": "/Configure-tariff/static/css/main.989c2770.css.map",
+    "main.12561d67.js.map": "/Configure-tariff/static/js/main.12561d67.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad76d96c.css",
-    "static/js/main.79a235a8.js"
+    "static/css/main.989c2770.css",
+    "static/js/main.12561d67.js"
   ]
 }

@@ -1,7 +1,7 @@
-@media (max-width : 1500px) {
+/* @media (max-width : 1500px) {
     .internet__wrapper {
     display: none; } 
-}
+} */
 
 .minutes__title {
     font-size: 32px;
@@ -100,3 +100,45 @@
     transition: all;
 }
 
+@media (max-width : 1080px) {
+
+.container {
+    width: 320px;
+}
+.slider {
+    width: 320px;
+}
+.track4 {
+    width: 320px;
+}
+
+.track2 {
+    width: 90px;
+}
+
+.trackDefault {
+    width: 90px;
+}
+
+.track3 {
+    width: 180px;
+}
+
+.track4 {
+    width: 280px;
+}
+
+.minutes__description li {
+    margin-right: 0px;
+}
+
+.minutes__description {
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+.minutes__description li {
+    display: flex;
+    min-width: 85px;
+}
+}
