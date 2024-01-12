@@ -19,3 +19,9 @@
 
     margin-bottom: 90px;
 }
+
+@media (max-width : 1080px) {
+    .container {
+    padding : 5vw
+}
+}
