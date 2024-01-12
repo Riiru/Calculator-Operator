@@ -76,3 +76,11 @@
     display: none;
 }
 
+@media (max-width : 1080px) {
+    .phone__input {
+        width: 300px;
+    }
+    .phone__inner {
+        width: 300px;
+    }
+}
