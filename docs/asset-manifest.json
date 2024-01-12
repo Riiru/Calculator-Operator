@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Calculator-Operator/build/static/css/main.89fd5bb9.css",
-    "main.js": "/Calculator-Operator/build/static/js/main.c110204c.js",
-    "static/media/instcolored.svg": "/Calculator-Operator/build/static/media/instcolored.1a6c9bdf1de19beba7bb74377fb6d30a.svg",
-    "static/media/inst.svg": "/Calculator-Operator/build/static/media/inst.e5b3bb647d1588bdc5d1eacdfd5fe48c.svg",
-    "static/media/tt.svg": "/Calculator-Operator/build/static/media/tt.6f37b649861bc63b74de04fbf37987fd.svg",
-    "static/media/ttcolored.svg": "/Calculator-Operator/build/static/media/ttcolored.9552314301ec5d6d57b246bc675c7581.svg",
-    "static/media/ok.svg": "/Calculator-Operator/build/static/media/ok.8e8f186dd94464499ed09f6540f0c384.svg",
-    "static/media/okcolored.svg": "/Calculator-Operator/build/static/media/okcolored.d51c416fa45840e6f94cc8ea3c6eb6b6.svg",
-    "index.html": "/Calculator-Operator/build/index.html",
-    "static/media/slide.svg": "/Calculator-Operator/build/static/media/slide.13ab39191a7df1d659a9.svg",
-    "static/media/arrow.svg": "/Calculator-Operator/build/static/media/arrow.c5680da45bc71e9dbd39be03db9004e7.svg",
-    "static/media/vk.svg": "/Calculator-Operator/build/static/media/vk.5cc118493eef606bd4f0e2b84bda094f.svg",
-    "static/media/vkcolored.svg": "/Calculator-Operator/build/static/media/vkcolored.5ed8a6175eb929ee477265b63b1e2fae.svg",
-    "static/media/check.svg": "/Calculator-Operator/build/static/media/check.4506d0ab5b10858ca2e0.svg",
-    "static/media/slideBlack.svg": "/Calculator-Operator/build/static/media/slideBlack.3b9d89ba481b39f79428.svg",
-    "static/media/fb.svg": "/Calculator-Operator/build/static/media/fb.b7c84e08b0b89c3fd08dba2271535b96.svg",
-    "static/media/fbcolored.svg": "/Calculator-Operator/build/static/media/fbcolored.71ebb00c85d5989030b295cc8d9b2585.svg",
-    "static/media/error.svg": "/Calculator-Operator/build/static/media/error.b5c6d6d8fc22631f14c166b4777fe886.svg",
-    "main.89fd5bb9.css.map": "/Calculator-Operator/build/static/css/main.89fd5bb9.css.map",
-    "main.c110204c.js.map": "/Calculator-Operator/build/static/js/main.c110204c.js.map"
+    "main.css": "/Configure-tariff/static/css/main.ded6700f.css",
+    "main.js": "/Configure-tariff/static/js/main.79a235a8.js",
+    "static/media/instcolored.svg": "/Configure-tariff/static/media/instcolored.1a6c9bdf1de19beba7bb74377fb6d30a.svg",
+    "static/media/inst.svg": "/Configure-tariff/static/media/inst.e5b3bb647d1588bdc5d1eacdfd5fe48c.svg",
+    "static/media/tt.svg": "/Configure-tariff/static/media/tt.6f37b649861bc63b74de04fbf37987fd.svg",
+    "static/media/ttcolored.svg": "/Configure-tariff/static/media/ttcolored.9552314301ec5d6d57b246bc675c7581.svg",
+    "static/media/ok.svg": "/Configure-tariff/static/media/ok.8e8f186dd94464499ed09f6540f0c384.svg",
+    "static/media/okcolored.svg": "/Configure-tariff/static/media/okcolored.d51c416fa45840e6f94cc8ea3c6eb6b6.svg",
+    "index.html": "/Configure-tariff/index.html",
+    "static/media/slide.svg": "/Configure-tariff/static/media/slide.13ab39191a7df1d659a9.svg",
+    "static/media/arrow.svg": "/Configure-tariff/static/media/arrow.c5680da45bc71e9dbd39be03db9004e7.svg",
+    "static/media/vk.svg": "/Configure-tariff/static/media/vk.5cc118493eef606bd4f0e2b84bda094f.svg",
+    "static/media/vkcolored.svg": "/Configure-tariff/static/media/vkcolored.5ed8a6175eb929ee477265b63b1e2fae.svg",
+    "static/media/check.svg": "/Configure-tariff/static/media/check.4506d0ab5b10858ca2e0.svg",
+    "static/media/slideBlack.svg": "/Configure-tariff/static/media/slideBlack.3b9d89ba481b39f79428.svg",
+    "static/media/fb.svg": "/Configure-tariff/static/media/fb.b7c84e08b0b89c3fd08dba2271535b96.svg",
+    "static/media/fbcolored.svg": "/Configure-tariff/static/media/fbcolored.71ebb00c85d5989030b295cc8d9b2585.svg",
+    "static/media/error.svg": "/Configure-tariff/static/media/error.b5c6d6d8fc22631f14c166b4777fe886.svg",
+    "main.ded6700f.css.map": "/Configure-tariff/static/css/main.ded6700f.css.map",
+    "main.79a235a8.js.map": "/Configure-tariff/static/js/main.79a235a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.89fd5bb9.css",
-    "static/js/main.c110204c.js"
+    "static/css/main.ded6700f.css",
+    "static/js/main.79a235a8.js"
   ]
 }
