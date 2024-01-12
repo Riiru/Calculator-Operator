@@ -23,4 +23,8 @@
     .container {
     padding : 5vw
 }
+
+.wrapper h1 {
+    font-size: 48px;
+}
 }

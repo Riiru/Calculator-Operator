@@ -66,7 +66,7 @@ transition: all 0.3s;
 
 .socials__btns {
 flex-wrap: wrap;
-max-width: 250px;
+max-width: 330px;
 }
 
 .socials__btns li {
