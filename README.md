@@ -3,5 +3,5 @@
 Все цены выдуманы.
 Json с полученными от пользователя данными будет выведен в консоль.
 
-### [ссылка на Github pages](Riiru.github.io/Configure-tariff)
+### [ссылка на Github pages](Crede322.github.io/Configure-tariff)
 
