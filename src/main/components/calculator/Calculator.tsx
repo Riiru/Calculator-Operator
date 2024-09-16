@@ -1,7 +1,8 @@
 import React from 'react';
 import { ContextCalculate } from '../../context/ContextCalculate'
 import { useContext } from 'react';
-import classes from './Calculator.module.css'; 
+import classes from './Calculator.module.css';
+import axios from "axios";
 
 const Calculator: React.FC = () => {
 
@@ -38,16 +39,17 @@ const Calculator: React.FC = () => {
         if (unmaskedValue.length === 11) {
         const data = {
           phoneNumber: phoneValue.replace(/\D/g,''),
-          choosenOperator: choosenOperator,
+          chosenOperator: choosenOperator,
           minutesSelectedOption: minutesSelection,
-          internetSeletedOption: internetSelection,
+          internetSelectedOption: internetSelection,
           rent: isRentChecked,
           redeem: isRedeemChecked,
           socials: [isFbActive, isVkActive, isOkActive, isInstActive, isTtActive],
-          totalAmount: totalAmount,
+          totalAmount: totalAmount
         } 
         const SelectedOptionsToBackend = JSON.stringify(data);
-        console.log(SelectedOptionsToBackend);
+        axios.post('https://tariff-server-meatael.amvera.io/api/add/', data)
+            .finally(() => console.log(SelectedOptionsToBackend))
       } else {
         setErrorState(2);
         window.scrollTo({
